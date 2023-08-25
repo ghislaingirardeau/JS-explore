@@ -1,0 +1,24 @@
+{
+  "_COMMENT": "USE TYPE MODULE to define your js files as module",
+  "name": "js",
+  "version": "1.0.0",
+  "description": "node --watch index.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "_COMMENT": "créer mon propre script ici ex: npm run nodeStream",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.0",
+    "pg": "^8.11.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0"
+  }
+}
